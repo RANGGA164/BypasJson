@@ -1,0 +1,34 @@
+{
+  "active_patches": [
+    {
+      "name": "Anogs 0x213F8C (Fix Crash lobby + logo)",
+      "lib": "libanogs.so",
+      "offset": "0x213F8C",
+      "hex": "E0040836"
+    },
+    {
+      "name": "Anogs 0x213000 (Text Segment Verification - Lobby Crash fix)",
+      "lib": "libanogs.so",
+      "offset": "0x213000",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Anogs 0x465790 (MRPCS TERMINATION FIXER)",
+      "lib": "libanogs.so",
+      "offset": "0x465790",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Anogs 0x49AC10 (HASH CALCULATION FUNCTION FIX 1 DAY)",
+      "lib": "libanogs.so",
+      "offset": "0x49AC10",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Anogs 0x492F18 (TERMINATION FIX)",
+      "lib": "libanogs.so",
+      "offset": "0x492F18",
+      "hex": "000080D2C0035FD6"
+    }
+  ]
+}
