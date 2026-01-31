@@ -1,6 +1,42 @@
 {
   "active_patches": [
     {
+      "name": "AnoSDKGetReportData",
+      "lib": "libanogs.so",
+      "offset": "0x1d551c",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKGetReportData2",
+      "lib": "libanogs.so",
+      "offset": "0x1d78cc",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKGetReportData3",
+      "lib": "libanogs.so",
+      "offset": "0x1d7938",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKGetReportData4",
+      "lib": "libanogs.so",
+      "offset": "0x1d7fc4",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKIoctl",
+      "lib": "libanogs.so",
+      "offset": "0x1d6ea8",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKIoctlOld",
+      "lib": "libanogs.so",
+      "offset": "0x1d6598",
+      "hex": "000080D2C0035FD6"
+    },
+    {
       "name": "Anogs 0x213F8C (Fix Crash lobby + logo)",
       "lib": "libanogs.so",
       "offset": "0x213F8C",
@@ -19,16 +55,658 @@
       "hex": "C0035FD6"
     },
     {
-      "name": "Anogs 0x49AC10 (HASH CALCULATION FUNCTION FIX 1 DAY)",
+      "name": "Anogs 0x1e1e44",
       "lib": "libanogs.so",
-      "offset": "0x49AC10",
+      "offset": "0x1e1e44",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x1e25d4",
+      "lib": "libanogs.so",
+      "offset": "0x1e25d4",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x2CA998",
+      "lib": "libanogs.so",
+      "offset": "0x2CA998",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x238360",
+      "lib": "libanogs.so",
+      "offset": "0x238360",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x330494",
+      "lib": "libanogs.so",
+      "offset": "0x330494",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x37c904",
+      "lib": "libanogs.so",
+      "offset": "0x37c904",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x39f56c",
+      "lib": "libanogs.so",
+      "offset": "0x39f56c",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x39f644",
+      "lib": "libanogs.so",
+      "offset": "0x39f644",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x3a560c",
+      "lib": "libanogs.so",
+      "offset": "0x3a560c",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x3a564c",
+      "lib": "libanogs.so",
+      "offset": "0x3a564c",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x4dfb40",
+      "lib": "libanogs.so",
+      "offset": "0x4dfb40",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x4dd37c",
+      "lib": "libanogs.so",
+      "offset": "0x4dd37c",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x373064",
+      "lib": "libanogs.so",
+      "offset": "0x373064",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x51fa80",
+      "lib": "libanogs.so",
+      "offset": "0x51fa80",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Anogs 0x5201e0",
+      "lib": "libanogs.so",
+      "offset": "0x5201e0",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Ue4 0x63E0298 (FORCE 120 ACE)",
+      "lib": "libUE4.so",
+      "offset": "0x63E0298",
+      "hex": "000F80D2C0035FD6"
+    },
+    {
+      "name": "Ue4 0x5A5FEB0 (fix termination)",
+      "lib": "libUE4.so",
+      "offset": "0x5A5FEB0",
       "hex": "C0035FD6"
     },
     {
-      "name": "Anogs 0x492F18 (TERMINATION FIX)",
+      "name": "Anogs 0x4D4778 (Mid Game lobby Crash Fixer X64 Global)",
       "lib": "libanogs.so",
-      "offset": "0x492F18",
+      "offset": "0x4D4778",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "1d fixer memc",
+      "lib": "libanogs.so",
+      "offset": "0x51F990",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "report corr",
+      "lib": "libanogs.so",
+      "offset": "0x1C79D4",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Patch 0x5A1F2D0",
+      "lib": "libUE4.so",
+      "offset": "0x5A1F2D0",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5A2E3E4",
+      "lib": "libUE4.so",
+      "offset": "0x5A2E3E4",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5A3D4F8",
+      "lib": "libUE4.so",
+      "offset": "0x5A3D4F8",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5A4C50C",
+      "lib": "libUE4.so",
+      "offset": "0x5A4C50C",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5A5B610",
+      "lib": "libUE4.so",
+      "offset": "0x5A5B610",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5B1A724",
+      "lib": "libUE4.so",
+      "offset": "0x5B1A724",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5B2B838",
+      "lib": "libUE4.so",
+      "offset": "0x5B2B838",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5B3C94C",
+      "lib": "libUE4.so",
+      "offset": "0x5B3C94C",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5B4DA50",
+      "lib": "libUE4.so",
+      "offset": "0x5B4DA50",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5B5EB64",
+      "lib": "libUE4.so",
+      "offset": "0x5B5EB64",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5C1FC78",
+      "lib": "libUE4.so",
+      "offset": "0x5C1FC78",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5C2AD8C",
+      "lib": "libUE4.so",
+      "offset": "0x5C2AD8C",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5C3BE90",
+      "lib": "libUE4.so",
+      "offset": "0x5C3BE90",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5C4CF04",
+      "lib": "libUE4.so",
+      "offset": "0x5C4CF04",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5C5D018",
+      "lib": "libUE4.so",
+      "offset": "0x5C5D018",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5D1E12C",
+      "lib": "libUE4.so",
+      "offset": "0x5D1E12C",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5D2F230",
+      "lib": "libUE4.so",
+      "offset": "0x5D2F230",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5D3A344",
+      "lib": "libUE4.so",
+      "offset": "0x5D3A344",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5D4B458",
+      "lib": "libUE4.so",
+      "offset": "0x5D4B458",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5D5C56C",
+      "lib": "libUE4.so",
+      "offset": "0x5D5C56C",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5E1D670",
+      "lib": "libUE4.so",
+      "offset": "0x5E1D670",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5E2E784",
+      "lib": "libUE4.so",
+      "offset": "0x5E2E784",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5E3F898",
+      "lib": "libUE4.so",
+      "offset": "0x5E3F898",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5E4A9AC",
+      "lib": "libUE4.so",
+      "offset": "0x5E4A9AC",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5E5BA20",
+      "lib": "libUE4.so",
+      "offset": "0x5E5BA20",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5F1CB34",
+      "lib": "libUE4.so",
+      "offset": "0x5F1CB34",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5F2DC48",
+      "lib": "libUE4.so",
+      "offset": "0x5F2DC48",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5F3ED5C",
+      "lib": "libUE4.so",
+      "offset": "0x5F3ED5C",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5F4FE60",
+      "lib": "libUE4.so",
+      "offset": "0x5F4FE60",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x5F5AF74",
+      "lib": "libUE4.so",
+      "offset": "0x5F5AF74",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x72B1A20",
+      "lib": "libUE4.so",
+      "offset": "0x72B1A20",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x72B2B34",
+      "lib": "libUE4.so",
+      "offset": "0x72B2B34",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x72C3C48",
+      "lib": "libUE4.so",
+      "offset": "0x72C3C48",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x72D4D5C",
+      "lib": "libUE4.so",
+      "offset": "0x72D4D5C",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x72E5E60",
+      "lib": "libUE4.so",
+      "offset": "0x72E5E60",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x73A6F74",
+      "lib": "libUE4.so",
+      "offset": "0x73A6F74",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x73B7088",
+      "lib": "libUE4.so",
+      "offset": "0x73B7088",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x73C819C",
+      "lib": "libUE4.so",
+      "offset": "0x73C819C",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x73D92A0",
+      "lib": "libUE4.so",
+      "offset": "0x73D92A0",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Patch 0x73EA3B4",
+      "lib": "libUE4.so",
+      "offset": "0x73EA3B4",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "10 year online",
+      "lib": "libanogs.so",
+      "offset": "0x2F4134",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "10 year offline",
+      "lib": "libanogs.so",
+      "offset": "0x2F41F8",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "10 year offline",
+      "lib": "libanogs.so",
+      "offset": "0x330490",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "termination fix",
+      "lib": "libanogs.so",
+      "offset": "0x39F568",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "1 day fix",
+      "lib": "libanogs.so",
+      "offset": "0x4B5E44",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "case 37",
+      "lib": "libanogs.so",
+      "offset": "0x228560",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "10y fix",
+      "lib": "libanogs.so",
+      "offset": "0x2ece70",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "termination fi",
+      "lib": "libUE4.so",
+      "offset": "0x73220CC",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Patch 0x39FD08",
+      "lib": "libanogs.so",
+      "offset": "0x39FD08",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Patch 0x21248c",
+      "lib": "libanogs.so",
+      "offset": "0x21248c",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Patch 0x2f9138",
+      "lib": "libanogs.so",
+      "offset": "0x2f9138",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "Patch 0x46efd0",
+      "lib": "libanogs.so",
+      "offset": "0x46efd0",
+      "hex": "00008052C0035FD6"
+    },
+    {
+      "name": "RPC_ClientCoronaLab",
+      "lib": "libUE4.so",
+      "offset": "0x7AB9480",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "EditorTriggerCoronaLabVerify",
+      "lib": "libUE4.so",
+      "offset": "0x6A993C0",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Anti-Debugger (ptrace)",
+      "lib": "libanogs.so",
+      "offset": "0x51fdf0",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Anti-Kill Process (kill)",
+      "lib": "libanogs.so",
+      "offset": "0x51f9f0",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Block Syslog (No Trace)",
+      "lib": "libanogs.so",
+      "offset": "0x520570",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Block System Property Get",
+      "lib": "libanogs.so",
+      "offset": "0x51ffe0",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Disable Data Reporting (Hpus Login Gagal(Main)",
+      "lib": "libgcloud.so",
+      "offset": "0x2ef420",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Block Net Sniffer (Anti-Trace)",
+      "lib": "libgcloud.so",
+      "offset": "0x3fa044",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Block Net Sniffer ZSD",
+      "lib": "libgcloud.so",
+      "offset": "0x3fa090",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Disable App Update Check (Bypass Version)",
+      "lib": "libgcloud.so",
+      "offset": "0x2eed80",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Disable GCloud Log (Anti-Log)",
+      "lib": "libgcloud.so",
+      "offset": "0x2ecb10",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Bypass File Verification",
+      "lib": "libgcloud.so",
+      "offset": "0x251d2c",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Hapus Jika Gbs Login)",
+      "lib": "libgcloud.so",
+      "offset": "0x9991c",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "Bypass File Access (Anti-Root Check)",
+      "lib": "libgcloud.so",
+      "offset": "0x8f4c0",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Bypass File Stat (Hide Illegal Files)",
+      "lib": "libgcloud.so",
+      "offset": "0x8f510",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Bypass OpenDir (Hide GG/Magisk Folders)",
+      "lib": "libgcloud.so",
+      "offset": "0x8f580",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "Disable Account Auto-Init",
+      "lib": "libgcloud.so",
+      "offset": "0x9977c",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "UE4: Bypass IsShippingBuild",
+      "lib": "libUE4.so",
+      "offset": "0x55be9cc",
+      "hex": "200080D2C0035FD6"
+    },
+    {
+      "name": "UE4: Block Hawk System Info (Tencent)",
+      "lib": "libUE4.so",
+      "offset": "0xc6aab10",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "UE4: Block GSDK Send Info",
+      "lib": "libUE4.so",
+      "offset": "0xb8569f4",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "UE4: Block TMFP Game Status Report",
+      "lib": "libUE4.so",
+      "offset": "0xc69d9c8",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "UE4: Block OneSDK JNI SendInfo",
+      "lib": "libUE4.so",
+      "offset": "0xb856ad8",
+      "hex": "C0035FD6"
+    },
+    {
+      "name": "AnoSDKSetUserInfo",
+      "lib": "libanogs.so",
+      "offset": "0x1D417C",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKSetUserInfoWithLicense",
+      "lib": "libanogs.so",
+      "offset": "0x1D4580",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKRegistInfoListener",
+      "lib": "libanogs.so",
+      "offset": "0x1D8C74",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKOnRecvSignature",
+      "lib": "libanogs.so",
+      "offset": "0x1D88EC",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKOnRecvData",
+      "lib": "libanogs.so",
+      "offset": "0x1D624C",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKForExport",
+      "lib": "libanogs.so",
+      "offset": "0x1D9024",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKInit",
+      "lib": "libanogs.so",
+      "offset": "0x51FA40",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKInit",
+      "lib": "libanogs.so",
+      "offset": "0x1D3814",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKInitEx",
+      "lib": "libanogs.so",
+      "offset": "0x1D3B40",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "SetUserInfo",
+      "lib": "libanogs.so",
+      "offset": "0x4F7274",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKGetReportData",
+      "lib": "libanogs.so",
+      "offset": "0x1C264C",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKDelReportData",
+      "lib": "libanogs.so",
+      "offset": "0x4D4C94",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKGetReportData3",
+      "lib": "libanogs.so",
+      "offset": "0x1CC128",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKDelReportData3",
+      "lib": "libanogs.so",
+      "offset": "0x1CC9E8",
+      "hex": "000080D2C0035FD6"
+    },
+    {
+      "name": "AnoSDKOnPause",
+      "lib": "libanogs.so",
+      "offset": "0x1CB244",
       "hex": "000080D2C0035FD6"
     }
   ]
-}
+}a
