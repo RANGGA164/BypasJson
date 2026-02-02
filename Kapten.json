@@ -32,7 +32,7 @@
       "name": "Case_34_Heartbeat_Bypass",
       "lib": "libanogs.so",
       "offset": "0x21FDE8",
-      "hex": "000080D2C0035FD6",
+      "hex": "1F2003D5",
       "is_enabled": true
     },
     {
