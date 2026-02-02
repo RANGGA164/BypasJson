@@ -61,14 +61,14 @@
       "lib": "libanogs.so",
       "offset": "0x213F8C",
       "hex": "E0040836",
-      "is_enabled": true
+      "is_enabled": false
     },
     {
       "name": "Text Segment Verification - Lobby Crash fix",
       "lib": "libanogs.so",
       "offset": "0x213000",
       "hex": "C0035FD6",
-      "is_enabled": true
+      "is_enabled": false
     },
     {
       "name": "MRPCS TERMINATION FIXER",
