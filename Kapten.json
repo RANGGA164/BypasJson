@@ -5,324 +5,315 @@
       "lib": "libanogs.so",
       "offset": "0x5003A4",
       "hex": "C0035FD6",
-      "is_enabled": true,
-      "note": "Wajib Aktif Pertama: Mematikan proteksi cek integritas"
+      "is_enabled": true
     },
     {
       "name": "Crash_Fix_Stabilizer",
       "lib": "libanogs.so",
       "offset": "0x1DEC34",
       "hex": "C0035FD6",
-      "is_enabled": true,
-      "note": "Mencegah FC saat memori dimodifikasi"
+      "is_enabled": true
     },
     {
       "name": "AnoSDK_Silent_Log",
       "lib": "libanogs.so",
       "offset": "0x1D6598",
       "hex": "C0035FD6",
-      "is_enabled": true,
-      "note": "Mencegah pengiriman log deteksi ke server"
+      "is_enabled": true
     },
     {
       "name": "Case_1_File_Validation",
       "lib": "libanogs.so",
       "offset": "0x2E0328",
       "hex": "000080D2C0035FD6",
-      "is_enabled": true,
-      "note": "Bypass pengecekan file modifikasi"
+      "is_enabled": true
     },
     {
       "name": "Case_34_Heartbeat_Bypass",
       "lib": "libanogs.so",
       "offset": "0x21FDE8",
       "hex": "000080D2C0035FD6",
-      "is_enabled": true,
-      "note": "Mematikan sinyal deteksi berkala"
+      "is_enabled": true
     },
     {
       "name": "Case_35_Security_Loop",
       "lib": "libanogs.so",
       "offset": "0x228068",
       "hex": "C0035FD6",
-      "is_enabled": true,
-      "note": "Mematikan loop proteksi (Hati-hati: Case 37/38 pakai offset sama)"
+      "is_enabled": true
     },
     {
       "name": "Case_49_VM_Detection",
       "lib": "libanogs.so",
       "offset": "0x2DD3A8",
       "hex": "1F2003D51F2003D5C0035FD6",
-      "is_enabled": false,
-      "note": "Gunakan NOP-NOP-RET agar lebih stabil (Default: Off)"
+      "is_enabled": false
     },
     {
       "name": "Case_23_Pos_Verification",
       "lib": "libanogs.so",
       "offset": "0x2A0C3C",
       "hex": "C0035FD6",
-      "is_enabled": false,
-      "note": "Sering bikin crash saat masuk match (Default: Off)"
+      "is_enabled": false
     },
     {
       "name": "Fix Crash lobby + logo",
       "lib": "libanogs.so",
       "offset": "0x213F8C",
       "hex": "E0040836",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Text Segment Verification - Lobby Crash fix",
       "lib": "libanogs.so",
       "offset": "0x213000",
       "hex": "C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "MRPCS TERMINATION FIXER",
       "lib": "libanogs.so",
       "offset": "0x465790",
       "hex": "C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "HASH CALCULATION FUNCTION FIX 1 DAY",
       "lib": "libanogs.so",
       "offset": "0x49AC10",
       "hex": "C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "TERMINATION FIX",
       "lib": "libanogs.so",
       "offset": "0x492F18",
       "hex": "000080D2C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x1e1e44",
       "lib": "libanogs.so",
       "offset": "0x1e1e44",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x1e25d4",
       "lib": "libanogs.so",
       "offset": "0x1e25d4",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x2CA998",
       "lib": "libanogs.so",
       "offset": "0x2CA998",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x238360",
       "lib": "libanogs.so",
       "offset": "0x238360",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x330494",
       "lib": "libanogs.so",
       "offset": "0x330494",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x37c904",
       "lib": "libanogs.so",
       "offset": "0x37c904",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x39f56c",
       "lib": "libanogs.so",
       "offset": "0x39f56c",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x39f644",
       "lib": "libanogs.so",
       "offset": "0x39f644",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x3a560c",
       "lib": "libanogs.so",
       "offset": "0x3a560c",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x3a564c",
       "lib": "libanogs.so",
       "offset": "0x3a564c",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x4dfb40",
       "lib": "libanogs.so",
       "offset": "0x4dfb40",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x4dd37c",
       "lib": "libanogs.so",
       "offset": "0x4dd37c",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x373064",
       "lib": "libanogs.so",
       "offset": "0x373064",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x51fa80",
       "lib": "libanogs.so",
       "offset": "0x51fa80",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Patch 0x5201e0",
       "lib": "libanogs.so",
       "offset": "0x5201e0",
       "hex": "00008052C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "FORCE 120 ACE",
       "lib": "libUE4.so",
       "offset": "0x63E0298",
       "hex": "000F80D2C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "fix termination",
       "lib": "libUE4.so",
       "offset": "0x5A5FEB0",
       "hex": "C0035FD6",
-    "is_enabled": true
-},
+      "is_enabled": true
+    },
     {
       "name": "Mid Game lobby Crash Fixer X64 Global",
       "lib": "libanogs.so",
       "offset": "0x4D4778",
       "hex": "000080D2C0035FD6",
-    "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "Block Net Sniffer (Anti-Trace)",
       "lib": "libgcloud.so",
       "offset": "0x3fa044",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "Block Net Sniffer ZSD",
       "lib": "libgcloud.so",
       "offset": "0x3fa090",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "Disable App Update Check (Bypass Version)",
       "lib": "libgcloud.so",
       "offset": "0x2eed80",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
-{
+    {
       "name": "Disable GCloud Log (Anti-Log)",
       "lib": "libgcloud.so",
       "offset": "0x2ecb10",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "Bypass File Verification",
       "lib": "libgcloud.so",
       "offset": "0x251d2c",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "Bypass File Access (Anti-Root Check)",
       "lib": "libgcloud.so",
       "offset": "0x8f4c0",
       "hex": "000080D2C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "Bypass File Stat (Hide Illegal Files)",
       "lib": "libgcloud.so",
       "offset": "0x8f510",
       "hex": "000080D2C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "Bypass OpenDir (Hide GG/Magisk Folders)",
       "lib": "libgcloud.so",
       "offset": "0x8f580",
       "hex": "000080D2C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "Disable Account Auto-Init",
       "lib": "libgcloud.so",
       "offset": "0x9977c",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "UE4: Block Hawk System Info (Tencent)",
       "lib": "libUE4.so",
       "offset": "0xc6aab10",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "UE4: Block GSDK Send Info",
       "lib": "libUE4.so",
       "offset": "0xb8569f4",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "UE4: Block TMFP Game Status Report",
       "lib": "libUE4.so",
       "offset": "0xc69d9c8",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
     {
       "name": "UE4: Block OneSDK JNI SendInfo",
       "lib": "libUE4.so",
       "offset": "0xb856ad8",
       "hex": "C0035FD6",
-          "is_enabled": true
+      "is_enabled": true
     },
-     {
+    {
       "name": "EditorTriggerCoronaLabVerify",
       "lib": "libUE4.so",
       "offset": "0x6A993C0",
       "hex": "000080D2C0035FD6",
-          "is_enabled": true
-    
+      "is_enabled": true
     }
   ]
 }
