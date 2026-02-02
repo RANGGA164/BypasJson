@@ -40,7 +40,7 @@
       "lib": "libanogs.so",
       "offset": "0x228068",
       "hex": "C0035FD6",
-      "is_enabled": true
+      "is_enabled": false
     },
     {
       "name": "Case_49_VM_Detection",
