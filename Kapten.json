@@ -75,14 +75,14 @@
       "lib": "libanogs.so",
       "offset": "0x465790",
       "hex": "C0035FD6",
-      "is_enabled": true
+      "is_enabled": false
     },
     {
       "name": "HASH CALCULATION FUNCTION FIX 1 DAY",
       "lib": "libanogs.so",
       "offset": "0x49AC10",
       "hex": "C0035FD6",
-      "is_enabled": true
+      "is_enabled": false
     },
     {
       "name": "TERMINATION FIX",
