@@ -1,266 +1,57 @@
 {
   "active_patches": [
-
-    {
-      "name": "Fix Crash lobby + logo",
-      "lib": "libanogs.so",
-      "offset": "0x213F8C",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Text Segment Verification - Lobby Crash fix",
-      "lib": "libanogs.so",
-      "offset": "0x213000",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "MRPCS TERMINATION FIXER",
-      "lib": "libanogs.so",
-      "offset": "0x465790",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "HASH CALCULATION FUNCTION FIX 1 DAY",
-      "lib": "libanogs.so",
-      "offset": "0x49AC10",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "TERMINATION FIX",
-      "lib": "libanogs.so",
-      "offset": "0x492F18",
-      "hex": "000080D2C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x1e1e44",
-      "lib": "libanogs.so",
-      "offset": "0x1e1e44",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x1e25d4",
-      "lib": "libanogs.so",
-      "offset": "0x1e25d4",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x2CA998",
-      "lib": "libanogs.so",
-      "offset": "0x2CA998",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x238360",
-      "lib": "libanogs.so",
-      "offset": "0x238360",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x330494",
-      "lib": "libanogs.so",
-      "offset": "0x330494",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x37c904",
-      "lib": "libanogs.so",
-      "offset": "0x37c904",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x39f56c",
-      "lib": "libanogs.so",
-      "offset": "0x39f56c",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x39f644",
-      "lib": "libanogs.so",
-      "offset": "0x39f644",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x3a560c",
-      "lib": "libanogs.so",
-      "offset": "0x3a560c",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x3a564c",
-      "lib": "libanogs.so",
-      "offset": "0x3a564c",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x4dfb40",
-      "lib": "libanogs.so",
-      "offset": "0x4dfb40",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x4dd37c",
-      "lib": "libanogs.so",
-      "offset": "0x4dd37c",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x373064",
-      "lib": "libanogs.so",
-      "offset": "0x373064",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x51fa80",
-      "lib": "libanogs.so",
-      "offset": "0x51fa80",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Patch 0x5201e0",
-      "lib": "libanogs.so",
-      "offset": "0x5201e0",
-      "hex": "00008052C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "FORCE 120 ACE",
-      "lib": "libUE4.so",
-      "offset": "0x63E0298",
-      "hex": "000080D2C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "fix termination",
-      "lib": "libUE4.so",
-      "offset": "0x5A5FEB0",
-      "hex": "000080D2C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Mid Game lobby Crash Fixer X64 Global",
-      "lib": "libanogs.so",
-      "offset": "0x4D4778",
-      "hex": "000080D2C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Block Net Sniffer (Anti-Trace)",
-      "lib": "libgcloud.so",
-      "offset": "0x3fa044",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Block Net Sniffer ZSD",
-      "lib": "libgcloud.so",
-      "offset": "0x3fa090",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Disable App Update Check (Bypass Version)",
-      "lib": "libgcloud.so",
-      "offset": "0x2eed80",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Disable GCloud Log (Anti-Log)",
-      "lib": "libgcloud.so",
-      "offset": "0x2ecb10",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Bypass File Verification",
-      "lib": "libgcloud.so",
-      "offset": "0x251d2c",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Bypass File Access (Anti-Root Check)",
-      "lib": "libgcloud.so",
-      "offset": "0x8f4c0",
-      "hex": "000080D2C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Bypass File Stat (Hide Illegal Files)",
-      "lib": "libgcloud.so",
-      "offset": "0x8f510",
-      "hex": "000080D2C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Bypass OpenDir (Hide GG/Magisk Folders)",
-      "lib": "libgcloud.so",
-      "offset": "0x8f580",
-      "hex": "000080D2C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "Disable Account Auto-Init",
-      "lib": "libgcloud.so",
-      "offset": "0x9977c",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "UE4: Block Hawk System Info (Tencent)",
-      "lib": "libUE4.so",
-      "offset": "0xc6aab10",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "UE4: Block GSDK Send Info",
-      "lib": "libUE4.so",
-      "offset": "0xb8569f4",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "UE4: Block TMFP Game Status Report",
-      "lib": "libUE4.so",
-      "offset": "0xc69d9c8",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "UE4: Block OneSDK JNI SendInfo",
-      "lib": "libUE4.so",
-      "offset": "0xb856ad8",
-      "hex": "C0035FD6",
-      "is_enabled": true
-    },
-    {
-      "name": "EditorTriggerCoronaLabVerify",
-      "lib": "libUE4.so",
-      "offset": "0x6A993C0",
-      "hex": "000080D2C0035FD6",
-      "is_enabled": true
-    },
-    
+    { "name": "SNIFF_ANOGS_HOOK_1", "lib": "libanogs.so", "offset": "0x21FF80", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_2", "lib": "libanogs.so", "offset": "0x225528", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_3", "lib": "libanogs.so", "offset": "0x228168", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_1", "lib": "libanogs.so", "offset": "0x2282F4", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_4", "lib": "libanogs.so", "offset": "0x2282F8", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_5", "lib": "libanogs.so", "offset": "0x2328F0", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_MOV_RET_1", "lib": "libanogs.so", "offset": "0x24877C", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_RET_1", "lib": "libanogs.so", "offset": "0x268174", "hex": "C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_2", "lib": "libanogs.so", "offset": "0x270CF4", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_6", "lib": "libanogs.so", "offset": "0x270CF8", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_3", "lib": "libanogs.so", "offset": "0x2C8EC8", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_4", "lib": "libanogs.so", "offset": "0x2CE6DC", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_7", "lib": "libanogs.so", "offset": "0x2CE6E0", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_5", "lib": "libanogs.so", "offset": "0x2E2C1C", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_RET_2", "lib": "libanogs.so", "offset": "0x2F49FC", "hex": "C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_MOV_RET_2", "lib": "libanogs.so", "offset": "0x2F4F04", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_6", "lib": "libanogs.so", "offset": "0x330494", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_8", "lib": "libanogs.so", "offset": "0x330498", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_7", "lib": "libanogs.so", "offset": "0x369654", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_9", "lib": "libanogs.so", "offset": "0x369658", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_8", "lib": "libanogs.so", "offset": "0x373064", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_10", "lib": "libanogs.so", "offset": "0x379220", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_9", "lib": "libanogs.so", "offset": "0x37966C", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_10", "lib": "libanogs.so", "offset": "0x37C904", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_11", "lib": "libanogs.so", "offset": "0x37C908", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_11", "lib": "libanogs.so", "offset": "0x387A3C", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_12", "lib": "libanogs.so", "offset": "0x387A40", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_12", "lib": "libanogs.so", "offset": "0x3A564C", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_13", "lib": "libanogs.so", "offset": "0x3A5650", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_13", "lib": "libanogs.so", "offset": "0x43099C", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_14", "lib": "libanogs.so", "offset": "0x4309A0", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_MOV_RET_3", "lib": "libanogs.so", "offset": "0x43694C", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_15", "lib": "libanogs.so", "offset": "0x453AA8", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_14", "lib": "libanogs.so", "offset": "0x4D4C94", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_16", "lib": "libanogs.so", "offset": "0x4D4C98", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_NOP_15", "lib": "libanogs.so", "offset": "0x4DF174", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_17", "lib": "libanogs.so", "offset": "0x4DF178", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_ANOGS_HOOK_18", "lib": "libanogs.so", "offset": "0x4EE7D8", "hex": "1F2003D5", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_1", "lib": "libUE4.so", "offset": "0x5A5FEB0", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_2", "lib": "libUE4.so", "offset": "0x60D6EC4", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_3", "lib": "libUE4.so", "offset": "0x60D73FC", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_4", "lib": "libUE4.so", "offset": "0x60D7A58", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_5", "lib": "libUE4.so", "offset": "0x60D7D94", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_6", "lib": "libUE4.so", "offset": "0x6542ED0", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_7", "lib": "libUE4.so", "offset": "0x6A993C0", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_8", "lib": "libUE4.so", "offset": "0x6E87A8C", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_9", "lib": "libUE4.so", "offset": "0x75A07D0", "hex": "000080D2C0035FD6", "is_enabled": true },
+    { "name": "SNIFF_UE4_MOV_RET_10", "lib": "libUE4.so", "offset": "0x7AB9480", "hex": "000080D2C0035FD6", "is_enabled": true }
+  ],
+  
+  "disable_patches": [
+  
   { "name": "MITRA_UE4_MOV_RET_1", "lib": "libUE4.so", "offset": "0x6A993C0", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "MITRA_UE4_MOV_RET_2", "lib": "libUE4.so", "offset": "0x7AB9480", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "MITRA_ANOGS_NOP_1", "lib": "libanogs.so", "offset": "0x1D551C", "hex": "000080D2C0035FD6", "is_enabled": true },
@@ -273,7 +64,7 @@
   { "name": "MITRA_ANOGS_LDR_4", "lib": "libanogs.so", "offset": "0x330498", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "MITRA_ANOGS_NOP_5", "lib": "libanogs.so", "offset": "0x39F56C", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "MITRA_ANOGS_LDR_5", "lib": "libanogs.so", "offset": "0x39F570", "hex": "000080D2C0035FD6", "is_enabled": true },
-  { "name": "MITRA_ANOGS_NOP_6", "lib": "libanogs.so", "offset": "0x3A564C", "hex": "000080D2C0035FD6", "is_enabled": true },
+  { "name": "MITRA_ANOGS_NOP_6", "lib": "libanogs.so", "offset": "0x3A564C", "hex": "C0035FD6", "is_enabled": true },
   { "name": "MITRA_ANOGS_LDR_6", "lib": "libanogs.so", "offset": "0x3A5650", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "MITRA_ANOGS_LDR_7", "lib": "libanogs.so", "offset": "0x49AA00", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "MITRA_ANOGS_LDR_8", "lib": "libanogs.so", "offset": "0x5201F0", "hex": "000080D2C0035FD6", "is_enabled": true },
@@ -334,11 +125,9 @@
   { "name": "SALEEM_ANOGS_LDR_1", "lib": "libanogs.so", "offset": "0x212490", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "SALEEM_ANOGS_LDR_2", "lib": "libanogs.so", "offset": "0x228168", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "SALEEM_ANOGS_MOV_RET", "lib": "libanogs.so", "offset": "0x330494", "hex": "000080D2C0035FD6", "is_enabled": true },
-  { "name": "SALEEM_ANOGS_NOP_2", "lib": "libanogs.so", "offset": "0x3A564C", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "SALEEM_ANOGS_LDR_3", "lib": "libanogs.so", "offset": "0x3A5650", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "SALEEM_ANOGS_LDR_4", "lib": "libanogs.so", "offset": "0x5201F0", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "SALEEM_ANOGS_HOOK_B", "lib": "libanogs.so", "offset": "0x574F08", "hex": "000080D2C0035FD6", "is_enabled": true },
   { "name": "SALEEM_GCLOUD_HOOK_B", "lib": "libgcloud.so", "offset": "0x68BE98", "hex": "000080D2C0035FD6", "is_enabled": true }
-
   ]
 }
