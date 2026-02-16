@@ -8,7 +8,7 @@
     { "name": "ANOGS_HOOK_LDR_2", "lib": "libanogs.so", "offset": "0x330498", "hex": "1F2003D5", "is_enabled": true },
     { "name": "ANOGS_NOP_2", "lib": "libanogs.so", "offset": "0x373064", "hex": "1F2003D5", "is_enabled": true },
     { "name": "ANOGS_NOP_3", "lib": "libanogs.so", "offset": "0x39F56C", "hex": "1F2003D5", "is_enabled": true },
-    { "name": "ANOGS_HOOK_LDR_3", "lib": "libanogs.so", "offset": "0x39F570", "hex": "0x39F570", "is_enabled": true },
+    { "name": "ANOGS_HOOK_LDR_3", "lib": "libanogs.so", "offset": "0x39F570", "hex": "1F2003D5", "is_enabled": true },
     { "name": "ANOGS_NOP_4", "lib": "libanogs.so", "offset": "0x3A564C", "hex": "1F2003D5", "is_enabled": true },
     { "name": "ANOGS_HOOK_LDR_4", "lib": "libanogs.so", "offset": "0x3A5650", "hex": "000080D2C0035FD6", "is_enabled": true },
     { "name": "ANOGS_NOP_5", "lib": "libanogs.so", "offset": "0x3DFA14", "hex": "1F2003D5", "is_enabled": true },
